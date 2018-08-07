@@ -1,0 +1,16 @@
+alias my='cd /media/pi/My\ Passport'
+alias sam='cd /media/pi/SAMSUNG'
+
+alias univ='cd /media/pi/My\ Passport/data/univ'
+
+alias 1sh='sh /mjpg_streamer/1msh.sh'
+alias 2sh='sh /mjpg_streamer/2msh.sh'
+
+alias 1py='python /python_camera/1ivport_capture_sequence_A.py'
+
+alias play='1py & 1sh & 2sh &'
+alias stop='pkill mjpg_streamer& pkill python'
+
+alias pc='cd /python_camera'
+alias ms='cd /mjpg_streamer'
+
