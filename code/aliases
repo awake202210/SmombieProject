@@ -14,3 +14,6 @@ alias stop='pkill mjpg_streamer& pkill python'
 alias pc='cd /python_camera'
 alias ms='cd /mjpg_streamer'
 
+alias pkgdown='sudo apt-get install build-essential libjpeg8-dev imagemagick libv4l-dev cmake -y'
+
+alias mjpgdown='git clone https://github.com/jacksonliam/mjpg-streamer.git'
